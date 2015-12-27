@@ -35,7 +35,10 @@
             this.btn_Prac07 = new System.Windows.Forms.Button();
             this.btn_Test05 = new System.Windows.Forms.Button();
             this.btn_Prac08 = new System.Windows.Forms.Button();
-            this.btn_Prac09 = new System.Windows.Forms.Button();
+            this.btn_Prac09_1 = new System.Windows.Forms.Button();
+            this.btn_Prac09_2 = new System.Windows.Forms.Button();
+            this.btn_Prac10 = new System.Windows.Forms.Button();
+            this.btn_Test06 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Prac04
@@ -108,22 +111,55 @@
             this.btn_Prac08.UseVisualStyleBackColor = true;
             this.btn_Prac08.Click += new System.EventHandler(this.btn_Prac08_Click);
             // 
-            // btn_Prac09
+            // btn_Prac09_1
             // 
-            this.btn_Prac09.Location = new System.Drawing.Point(420, 12);
-            this.btn_Prac09.Name = "btn_Prac09";
-            this.btn_Prac09.Size = new System.Drawing.Size(96, 33);
-            this.btn_Prac09.TabIndex = 7;
-            this.btn_Prac09.Text = "12/15 練習09";
-            this.btn_Prac09.UseVisualStyleBackColor = true;
-            this.btn_Prac09.Click += new System.EventHandler(this.btn_Prac09_Click);
+            this.btn_Prac09_1.Location = new System.Drawing.Point(12, 122);
+            this.btn_Prac09_1.Name = "btn_Prac09_1";
+            this.btn_Prac09_1.Size = new System.Drawing.Size(96, 33);
+            this.btn_Prac09_1.TabIndex = 7;
+            this.btn_Prac09_1.Text = "12/15 練習09-1";
+            this.btn_Prac09_1.UseVisualStyleBackColor = true;
+            this.btn_Prac09_1.Click += new System.EventHandler(this.btn_Prac09_Click);
+            // 
+            // btn_Prac09_2
+            // 
+            this.btn_Prac09_2.Location = new System.Drawing.Point(12, 161);
+            this.btn_Prac09_2.Name = "btn_Prac09_2";
+            this.btn_Prac09_2.Size = new System.Drawing.Size(96, 33);
+            this.btn_Prac09_2.TabIndex = 8;
+            this.btn_Prac09_2.Text = "12/15 練習09-2";
+            this.btn_Prac09_2.UseVisualStyleBackColor = true;
+            this.btn_Prac09_2.Click += new System.EventHandler(this.btn_Prac09_2_Click);
+            // 
+            // btn_Prac10
+            // 
+            this.btn_Prac10.Location = new System.Drawing.Point(114, 161);
+            this.btn_Prac10.Name = "btn_Prac10";
+            this.btn_Prac10.Size = new System.Drawing.Size(96, 33);
+            this.btn_Prac10.TabIndex = 10;
+            this.btn_Prac10.Text = "12/22 練習10";
+            this.btn_Prac10.UseVisualStyleBackColor = true;
+            this.btn_Prac10.Click += new System.EventHandler(this.btn_Prac10_Click);
+            // 
+            // btn_Test06
+            // 
+            this.btn_Test06.Location = new System.Drawing.Point(114, 122);
+            this.btn_Test06.Name = "btn_Test06";
+            this.btn_Test06.Size = new System.Drawing.Size(96, 33);
+            this.btn_Test06.TabIndex = 9;
+            this.btn_Test06.Text = "12/22 測驗06";
+            this.btn_Test06.UseVisualStyleBackColor = true;
+            this.btn_Test06.Click += new System.EventHandler(this.btn_Test06_Click);
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(531, 376);
-            this.Controls.Add(this.btn_Prac09);
+            this.ClientSize = new System.Drawing.Size(429, 205);
+            this.Controls.Add(this.btn_Prac10);
+            this.Controls.Add(this.btn_Test06);
+            this.Controls.Add(this.btn_Prac09_2);
+            this.Controls.Add(this.btn_Prac09_1);
             this.Controls.Add(this.btn_Prac08);
             this.Controls.Add(this.btn_Test05);
             this.Controls.Add(this.btn_Prac07);
@@ -146,7 +182,10 @@
         private System.Windows.Forms.Button btn_Prac07;
         private System.Windows.Forms.Button btn_Test05;
         private System.Windows.Forms.Button btn_Prac08;
-        private System.Windows.Forms.Button btn_Prac09;
+        private System.Windows.Forms.Button btn_Prac09_1;
+        private System.Windows.Forms.Button btn_Prac09_2;
+        private System.Windows.Forms.Button btn_Prac10;
+        private System.Windows.Forms.Button btn_Test06;
     }
 }
 

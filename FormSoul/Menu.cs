@@ -80,7 +80,34 @@ namespace FormSoul
 
         private void btn_Prac09_Click(object sender, EventArgs e)
         {
+            TransNum child = new TransNum();
+            child.Show();
+            this.Hide();
+            child.FormClosing += child_Closing;
+        }
 
+        private void btn_Prac09_2_Click(object sender, EventArgs e)
+        {
+            TransCode child = new TransCode();
+            child.Show();
+            this.Hide();
+            child.FormClosing += child_Closing;
+        }
+
+        private void btn_Test06_Click(object sender, EventArgs e)
+        {
+            TransCodeAdv child = new TransCodeAdv();
+            child.Show();
+            this.Hide();
+            child.FormClosing += child_Closing;
+        }
+
+        private void btn_Prac10_Click(object sender, EventArgs e)
+        {
+            FileStream child = new FileStream();
+            child.Show();
+            this.Hide();
+            child.FormClosing += child_Closing;
         }
     }
 }
