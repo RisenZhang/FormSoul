@@ -39,6 +39,8 @@
             this.btn_Prac09_2 = new System.Windows.Forms.Button();
             this.btn_Prac10 = new System.Windows.Forms.Button();
             this.btn_Test06 = new System.Windows.Forms.Button();
+            this.btn_Test07 = new System.Windows.Forms.Button();
+            this.btn_Prac11 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Prac04
@@ -151,11 +153,33 @@
             this.btn_Test06.UseVisualStyleBackColor = true;
             this.btn_Test06.Click += new System.EventHandler(this.btn_Test06_Click);
             // 
+            // btn_Test07
+            // 
+            this.btn_Test07.Location = new System.Drawing.Point(216, 122);
+            this.btn_Test07.Name = "btn_Test07";
+            this.btn_Test07.Size = new System.Drawing.Size(96, 33);
+            this.btn_Test07.TabIndex = 11;
+            this.btn_Test07.Text = "12/29 測驗07";
+            this.btn_Test07.UseVisualStyleBackColor = true;
+            this.btn_Test07.Click += new System.EventHandler(this.btn_Test07_Click);
+            // 
+            // btn_Prac11
+            // 
+            this.btn_Prac11.Location = new System.Drawing.Point(216, 161);
+            this.btn_Prac11.Name = "btn_Prac11";
+            this.btn_Prac11.Size = new System.Drawing.Size(96, 33);
+            this.btn_Prac11.TabIndex = 12;
+            this.btn_Prac11.Text = "12/29 練習11";
+            this.btn_Prac11.UseVisualStyleBackColor = true;
+            this.btn_Prac11.Click += new System.EventHandler(this.btn_Prac11_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(429, 205);
+            this.Controls.Add(this.btn_Prac11);
+            this.Controls.Add(this.btn_Test07);
             this.Controls.Add(this.btn_Prac10);
             this.Controls.Add(this.btn_Test06);
             this.Controls.Add(this.btn_Prac09_2);
@@ -186,6 +210,8 @@
         private System.Windows.Forms.Button btn_Prac09_2;
         private System.Windows.Forms.Button btn_Prac10;
         private System.Windows.Forms.Button btn_Test06;
+        private System.Windows.Forms.Button btn_Test07;
+        private System.Windows.Forms.Button btn_Prac11;
     }
 }
 

@@ -109,5 +109,21 @@ namespace FormSoul
             this.Hide();
             child.FormClosing += child_Closing;
         }
+
+        private void btn_Test07_Click(object sender, EventArgs e)
+        {
+            FileStreamAdv child = new FileStreamAdv();
+            child.Show();
+            this.Hide();
+            child.FormClosing += child_Closing;
+        }
+
+        private void btn_Prac11_Click(object sender, EventArgs e)
+        {
+            FinalMixing child = new FinalMixing();
+            child.Show();
+            this.Hide();
+            child.FormClosing += child_Closing;
+        }
     }
 }
