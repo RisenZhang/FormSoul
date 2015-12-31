@@ -68,16 +68,16 @@
     <Compile Include="1222\FileStream.Designer.cs">
       <DependentUpon>FileStream.cs</DependentUpon>
     </Compile>
-    <Compile Include="FileStreamAdv.cs">
+    <Compile Include="1229\FileStreamAdv.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FileStreamAdv.Designer.cs">
+    <Compile Include="1229\FileStreamAdv.Designer.cs">
       <DependentUpon>FileStreamAdv.cs</DependentUpon>
     </Compile>
-    <Compile Include="FinalMixing.cs">
+    <Compile Include="1229\FinalMixing.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FinalMixing.Designer.cs">
+    <Compile Include="1229\FinalMixing.Designer.cs">
       <DependentUpon>FinalMixing.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
@@ -142,10 +142,10 @@
     <EmbeddedResource Include="1222\FileStream.resx">
       <DependentUpon>FileStream.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FileStreamAdv.resx">
+    <EmbeddedResource Include="1229\FileStreamAdv.resx">
       <DependentUpon>FileStreamAdv.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FinalMixing.resx">
+    <EmbeddedResource Include="1229\FinalMixing.resx">
       <DependentUpon>FinalMixing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
